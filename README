@@ -8,4 +8,15 @@ to the main.py
 
 Solution
 ========
-If you want to know the solution you can checkout "solution" branch
+This type of task can be best finished using "git add -p". This will start
+"addition mode" where git will start asking questions about which changed chunks
+you want to add to index for future committing. 
+
+You can split the chunks into smaller pieces by typing "s". This is helpful in
+instances like this one where git offers you a big chunk that includes both
+pieces you want to add to the next commit and pieces you want to leave for
+later.
+
+So you can split the chunk, then say "y" to add square method into index.
+Followed by "q" to end staging chunks. And git commit to commit the square
+method. You can then run git commit -a to commit rest of the changes
